@@ -36,6 +36,11 @@ print(f"Concatenated List: {concatenated_list}")
 # 5. Write a program that removes a specific element from a list by its value.
 five = [456, 942, 944, 762, 836, 451, 314, 559, 954, 211]
 
+number_to_remove = 456
+if number_to_remove in five:
+    five.remove(number_to_remove)
+
+print(f"List after removing {number_to_remove}: {five}")
 # 6. Write a program that removes a specific element from a list by its index.
 six = [993, 245, 896, 250, 226, 313, 918, 877, 793, 695]
 
