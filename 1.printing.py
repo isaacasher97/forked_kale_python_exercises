@@ -114,10 +114,11 @@ my_dictionary = {
 # 12. For loops.
 # Write a FOR LOOP in python that prints each item in list variable in step 2.  
 # Hint: type this into google "loop python"
-for item in my_list:
-    print(item)
+# for item in my_list:
+    # print(item)
 # 13. Repeat step 12 but instead of the list variable, use the dictionary variable. 
 # Print each key
-
+for key in my_dictionary:
+    print(key)
 # 14. Repeat step 13. Instead of printing each key, print each value
 # Hint: google "dictionary values python"
