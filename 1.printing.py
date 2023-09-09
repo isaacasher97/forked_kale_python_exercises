@@ -23,7 +23,20 @@ my_dictionary = {
     "country": "USA"
 }
 # 3. For each of the variables, use the print method for each variable. To print each varible
-
+#int
+print(my_integer)
+#float
+print(my_float)
+#string
+print(my_string)
+#boolean
+print(my_boolean)
+#other_boolean
+print(my_other_boolean)
+#lists
+print(my_list)
+#dictionaries
+print(my_dictionary)
 # 4. Backtick ` in JS are used for Template literals. In a JS file a variable called intVariable and stringVariable exist.
 # They are equal to the int and string variables on step 2.
 # What is the python equvalent for: console.log(`int: ${intVariable}, string ${stringVariable}`)
