@@ -45,28 +45,28 @@ my_dictionary = {
 
 # 6. Write a FOR LOOP in python that prints "David Rocks" 5 times
 # Hint: type this into google "loop range python"
-for i in range(5):
-    print("David Rocks")
+# for i in range(5):
+    #print("David Rocks")
 
 # 7. Declare a function what print "Alex Rocks". Invoke that function 5 times. 
 #define
-def alex_rocks():
-    print("Alex Rocks")
+# def alex_rocks():
+    # print("Alex Rocks")
 
 #invoke 5 times
-for i in range(5):
-    alex_rocks()
+# for i in range(5):
+    # alex_rocks()
 
 
 # 8. Declare a function that takes in 2 parameters. 
 # It will print "P1(your parameter1) and P2(your parameter2) Rocks"
-def my_function(param1, param2):
-    print(f"{param1} and {param2} Rock")
+# def my_function(param1, param2):
+    # print(f"{param1} and {param2} Rock")
 # Now call that function using "Kyle" and "Winston" as the arguments
-my_function("Kyle", "Winston")
+# my_function("Kyle", "Winston")
 # invoke that function 4 more times
-for i in range(4):
-    my_function("Kyle", "Winston")
+# for i in range(4):
+    # my_function("Kyle", "Winston")
 
 # Definitions:  
 # P is for Placeholder. P is for Parameters.
@@ -79,10 +79,13 @@ for i in range(4):
 
 # 9. Remember the list variable in step 2. 
 # a. Print the index at 3. Then comment it out
+print(my_list[3]) #Output => 4
 # b. Now print the index at 100. Does this error? comment it out
+print(my_list[100]) #Output => IndexError: list index out of range 
 # e. Now print the index at -1 index. Observe what it prints. Then comment it out
+print(my_list[-1]) #Output => 4
 # f. Now print the index at -100.  Does this error? comment it out
-
+print(my_list[-100]) #Output => IndexError: list index out of range 
 # 10. Write a FOR LOOP in python that prints each item in the list variable in step 2.  
 # The staring number MUST be a negative number. The ending number MUST be postive number
 # Looking to get each item printed once in order and then a second time in order
