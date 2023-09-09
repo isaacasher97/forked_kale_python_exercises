@@ -68,6 +68,16 @@ print(f"List sorted in ascending order: {seven}")
 eight = [309, 122, 27, 240, 453, 174, 193, 649, 804, 171]
 threshold = 200
 
+# Create a new list to store filtered elements
+filtered_list = []
+
+# Iterate through the elements in the original list
+for number in eight:
+    if number >= threshold:
+        filtered_list.append(number)
+
+print(f"Original List: {eight}")
+print(f"Filtered List (elements >= {threshold}):", filtered_list)
 
 # 9. Calculate and print the length (number of elements) of a given list.
 nine = [679, 697, 657, 171, 503, 582, 656, 82, 724, 796]
