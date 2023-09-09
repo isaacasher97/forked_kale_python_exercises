@@ -49,6 +49,14 @@ for i in range(5):
     print("David Rocks")
 
 # 7. Declare a function what print "Alex Rocks". Invoke that function 5 times. 
+#define
+def alex_rocks():
+    print("Alex Rocks")
+
+#invoke 5 times
+for i in range(5):
+    alex_rocks()
+
 
 # 8. Declare a function that takes in 2 parameters. 
 # It will print "P1(your parameter1) and P2(your parameter2) Rocks"
