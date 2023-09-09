@@ -60,8 +60,13 @@ for i in range(5):
 
 # 8. Declare a function that takes in 2 parameters. 
 # It will print "P1(your parameter1) and P2(your parameter2) Rocks"
-# Now call that function using "Kyle" and "Winston" as the arguments 
+def my_function(param1, param2):
+    print(f"{param1} and {param2} Rock")
+# Now call that function using "Kyle" and "Winston" as the arguments
+my_function("Kyle", "Winston")
 # invoke that function 4 more times
+for i in range(4):
+    my_function("Kyle", "Winston")
 
 # Definitions:  
 # P is for Placeholder. P is for Parameters.
