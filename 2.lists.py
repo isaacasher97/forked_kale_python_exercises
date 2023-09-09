@@ -44,6 +44,16 @@ print(f"List after removing {number_to_remove}: {five}")
 # 6. Write a program that removes a specific element from a list by its index.
 six = [993, 245, 896, 250, 226, 313, 918, 877, 793, 695]
 
+index_to_remove = 4
+
+if 0 <= index_to_remove < len(six):
+    del six[index_to_remove]
+    print(f"Number at index {index_to_remove} removed.")
+else:
+    print("Invalid Index")
+
+print(f"List after removal: {six}")
+
 # 7. Write a program that sorts a list of numbers in ascending order.
 seven = [887, 106, 368, 603, 35, 455, 728, 449, 108, 47]
 
