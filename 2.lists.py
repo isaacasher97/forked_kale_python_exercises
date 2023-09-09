@@ -11,6 +11,9 @@ print("Sum of all elements:", sum_result)
 
 # 2.  Write a program that find the largest element:
 two = [386, 850, 274, 316, 526, 937, 998, 249, 269, 922]
+max_result = max(two)
+
+print(f"The largest number is: {max_result}")
 
 # 3. Write a program that duplicates that doubles the value of each elements in the list:
 # for example: [1,2,3] should result in [2,4,6]
