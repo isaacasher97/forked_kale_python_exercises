@@ -79,19 +79,38 @@ my_dictionary = {
 
 # 9. Remember the list variable in step 2. 
 # a. Print the index at 3. Then comment it out
-print(my_list[3]) #Output => 4
+#print(my_list[3]) #Output => 4
 # b. Now print the index at 100. Does this error? comment it out
-print(my_list[100]) #Output => IndexError: list index out of range 
+#print(my_list[100]) #Output => IndexError: list index out of range 
 # e. Now print the index at -1 index. Observe what it prints. Then comment it out
-print(my_list[-1]) #Output => 4
+#print(my_list[-1]) #Output => 4
 # f. Now print the index at -100.  Does this error? comment it out
-print(my_list[-100]) #Output => IndexError: list index out of range 
+#print(my_list[-100]) #Output => IndexError: list index out of range 
 # 10. Write a FOR LOOP in python that prints each item in the list variable in step 2.  
 # The staring number MUST be a negative number. The ending number MUST be postive number
 # Looking to get each item printed once in order and then a second time in order
+# Loop to print each item in order
+for i in range(-len(my_list), len(my_list)):
+    print(my_list[i])
+
+# Loop to print each item in order again
+for i in range(-len(my_list), len(my_list)):
+    print(my_list[i])
 
 # 11. Write a WHILE LOOP in python that does the same thing as 10. 
+#set the index to = the first negative index
+index = -len(my_list)
 
+while index < len(my_list):
+    print(my_list[index])
+    index += 1
+
+#reset the index
+index = -len(my_list)
+#repeat the process
+while index < len(my_list):
+    print(my_list[index])
+    index += 1
 # 12. For loops.
 # Write a FOR LOOP in python that prints each item in list variable in step 2.  
 # Hint: type this into google "loop python"
