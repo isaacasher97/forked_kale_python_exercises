@@ -29,7 +29,10 @@ print("Doubled List:", doubled_elements)
 four_a = [582, 427, 534, 143, 567, 604, 12, 48, 686, 825]
 four_b = [357, 728, 406, 989, 380, 800, 201, 410, 452, 141]
 
+#concatenate both lists
+concatenated_list = four_a + four_b
 
+print(f"Concatenated List: {concatenated_list}")
 # 5. Write a program that removes a specific element from a list by its value.
 five = [456, 942, 944, 762, 836, 451, 314, 559, 954, 211]
 
