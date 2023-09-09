@@ -18,6 +18,12 @@ print(f"The largest number is: {max_result}")
 # 3. Write a program that duplicates that doubles the value of each elements in the list:
 # for example: [1,2,3] should result in [2,4,6]
 three = [211, 36, 295, 455, 147, 977, 381, 253, 327, 617]
+# Double the value of each element using a list comprehension
+doubled_elements = [2 * x for x in three]
+
+print("Original List:", three)
+print("Doubled List:", doubled_elements)
+
 
 # 4. Write a program that concatenates these two list into a single list:
 four_a = [582, 427, 534, 143, 567, 604, 12, 48, 686, 825]
