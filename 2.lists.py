@@ -82,6 +82,10 @@ print(f"Filtered List (elements >= {threshold}):", filtered_list)
 # 9. Calculate and print the length (number of elements) of a given list.
 nine = [679, 697, 657, 171, 503, 582, 656, 82, 724, 796]
 
+# Calculate and print the length of the list
+list_length = len(nine)
+
+print("Length of the list:", list_length)
 
 # 10. Write a program that take a list and print a subset of its elements by specifying a start and end index.
 ten = [64, 800, 662, 185, 630, 612, 181, 210, 738, 12]
