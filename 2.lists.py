@@ -57,6 +57,11 @@ print(f"List after removal: {six}")
 # 7. Write a program that sorts a list of numbers in ascending order.
 seven = [887, 106, 368, 603, 35, 455, 728, 449, 108, 47]
 
+#sort the list in ascending order
+seven.sort()
+
+print(f"List sorted in ascending order: {seven}")
+
 
 # 8. Write a program that filters out all elements in a list that are less than a specified value.
 # use for loop and conditionals
