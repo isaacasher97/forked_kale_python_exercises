@@ -90,31 +90,32 @@ my_dictionary = {
 # The staring number MUST be a negative number. The ending number MUST be postive number
 # Looking to get each item printed once in order and then a second time in order
 # Loop to print each item in order
-for i in range(-len(my_list), len(my_list)):
-    print(my_list[i])
+# for i in range(-len(my_list), len(my_list)):
+    # print(my_list[i])
 
 # Loop to print each item in order again
-for i in range(-len(my_list), len(my_list)):
-    print(my_list[i])
+# for i in range(-len(my_list), len(my_list)):
+    # print(my_list[i])
 
 # 11. Write a WHILE LOOP in python that does the same thing as 10. 
 #set the index to = the first negative index
-index = -len(my_list)
+# index = -len(my_list)
 
-while index < len(my_list):
-    print(my_list[index])
-    index += 1
+# while index < len(my_list):
+    # print(my_list[index])
+    # index += 1
 
 #reset the index
-index = -len(my_list)
+# index = -len(my_list)
 #repeat the process
-while index < len(my_list):
-    print(my_list[index])
-    index += 1
+# while index < len(my_list):
+    # print(my_list[index])
+    # index += 1
 # 12. For loops.
 # Write a FOR LOOP in python that prints each item in list variable in step 2.  
 # Hint: type this into google "loop python"
-
+for item in my_list:
+    print(item)
 # 13. Repeat step 12 but instead of the list variable, use the dictionary variable. 
 # Print each key
 
