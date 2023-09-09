@@ -118,7 +118,10 @@ my_dictionary = {
     # print(item)
 # 13. Repeat step 12 but instead of the list variable, use the dictionary variable. 
 # Print each key
-for key in my_dictionary:
-    print(key)
+# for key in my_dictionary:
+    # print(key)
 # 14. Repeat step 13. Instead of printing each key, print each value
 # Hint: google "dictionary values python"
+for key in my_dictionary:
+    value = my_dictionary[key]
+    print(value)
